@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: antiquewhite;
+}
+
+a {
+  color:rgba(194, 146, 35, 0.718);
+}
+
+button {
+  margin: 1rem;
+}
+
+.background {
+  background: url(background.png);
+  height: 100vh;
+  display: flex;
+}
+
+.form-main {
+  margin: 0 auto;
+  margin-top: 7rem;
+  max-width: 20rem;
+  border: 2px solid rgba(194, 146, 35, 0.718);
+  padding: 2rem;
+  background-color: rgba(194, 146, 35, 0.718);
+  border-radius: 6px;
+}
+
+.form-check-label {
+  color: var(--font-color);
+}
+
+.footer {
+  color: var(--font-color);
+  text-align: center;
+  
+}
+
