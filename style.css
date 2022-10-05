@@ -4,16 +4,23 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Gloria+Hallelujah&display=swap');
+
 :root {
   --font-color: antiquewhite;
 }
 
 a {
   color:rgba(194, 146, 35, 0.718);
+  text-decoration: none;
 }
 
 button {
   margin: 1rem;
+}
+
+.clan-emoji {
+  font-size: 4rem;
 }
 
 .background {
@@ -24,7 +31,7 @@ button {
 
 .form-main {
   margin: 0 auto;
-  margin-top: 7rem;
+  margin-top: 2.5rem;
   max-width: 20rem;
   border: 2px solid rgba(194, 146, 35, 0.718);
   padding: 2rem;
@@ -36,9 +43,15 @@ button {
   color: var(--font-color);
 }
 
+.clan-emoji,
+.title,
 .footer {
   color: var(--font-color);
   text-align: center;
   
+}
+
+.title {
+font-family: 'Cinzel Decorative', cursive;
 }
 
